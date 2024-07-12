@@ -167,6 +167,22 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+	/* Para un enlace con clase específica */
+	.mi-enlace {
+		color: #0062ff;
+		border-bottom: dotted 1px;
+		text-decoration: none;
+		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+	}
+
+		.mi-enlace:hover {
+			border-bottom-color: transparent;
+		}
+
+
 	strong, b {
 		font-weight: 600;
 	}
